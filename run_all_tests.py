@@ -199,7 +199,7 @@ def test_6_realistic_generator():
     print_header("TEST 6: Realistic Behavior Generator")
     
     try:
-        from simulation.realistic_behavior_generator import RealisticBehaviorGenerator
+        from simulation.realistic_behaviour_generator import RealisticBehaviorGenerator
         from models import User, Device, Application
         
         # Create minimal test data

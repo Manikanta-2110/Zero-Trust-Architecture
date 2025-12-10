@@ -10,7 +10,7 @@ from faker import Faker
 
 from models import User, Device, Application
 from core import IdentityManager, DeviceManager, AccessController, MonitoringSystem
-from simulation.realistic_behavior_generator import RealisticBehaviorGenerator
+from simulation.realistic_behaviour_generator import RealisticBehaviorGenerator
 import config
 
 
